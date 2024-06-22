@@ -6,7 +6,6 @@
 </head>
 
 <body>
-    <center>
         <?php
         include 'db_config.php';
 
@@ -42,7 +41,6 @@
            mysqli_close($conn);
         }
         ?>
-    </center>
 </body>
 
 </html>
